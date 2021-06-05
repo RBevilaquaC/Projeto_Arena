@@ -7,7 +7,7 @@ public class WeaponController : MonoBehaviour
     public Transform pivot;
     public Transform bocaDoCano;
     public GameObject projetil;
-    public int Damage;
+    public int dano;
     public float forcaProjetil;
     void Start()
     {
@@ -31,8 +31,10 @@ public class WeaponController : MonoBehaviour
             GameObject disparo = Instantiate(projetil, bocaDoCano.transform.position
                                             ,Quaternion.Euler (new Vector3(0f,0f,angulo)));
             disparo.GetComponent<Rigidbody2D>().AddForce(direction*forcaProjetil);
+            disparo.GetComponent<Projetil>().dano = dano;
         }
     }
+    
     private void UpdateRotacao()
     {
         Vector2 atualPos = Camera.main.WorldToViewportPoint (transform.position);
@@ -43,4 +45,6 @@ public class WeaponController : MonoBehaviour
     private float AnguloEntreDoisPontos(Vector3 a, Vector3 b) {
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
     }
+    
+    
 }

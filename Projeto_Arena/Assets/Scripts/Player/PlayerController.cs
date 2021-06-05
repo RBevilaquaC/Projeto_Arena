@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Mover();
-        Pular();
+        if(noChao) Pular();
     }
 
 
@@ -34,8 +34,17 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             rb.AddForce(new Vector2(0, forcaPulo));
-
+            noChao = false;
         }
     }
+    
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Edge" || collision.gameObject.tag == "Ground")
+        {
+            noChao = true;
+        }
+    }
+
     
 }

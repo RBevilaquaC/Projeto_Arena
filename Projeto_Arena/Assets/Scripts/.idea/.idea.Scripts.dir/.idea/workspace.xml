@@ -14,11 +14,14 @@
     <setting file="file://$PROJECT_DIR$/Global/CameraController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Global/GameController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Player/WeaponController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Global/Projetil.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Global/CameraController.cs" />
       <option value="$PROJECT_DIR$/Player/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Player/WeaponController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tX0XejYu6rjSJ41KXxZuMExfNt" />
@@ -42,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622900174419</updated>
-      <workItem from="1622900181355" duration="394000" />
+      <workItem from="1622900181355" duration="3346000" />
     </task>
     <servers />
   </component>

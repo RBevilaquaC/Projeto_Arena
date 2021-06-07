@@ -11,18 +11,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Global/CameraController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Global/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Global/GameController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Player/WeaponController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Global/Projetil.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Player/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Global/Projetil.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Global/CameraController.cs" />
       <option value="$PROJECT_DIR$/Player/PlayerController.cs" />
-      <option value="$PROJECT_DIR$/Player/WeaponController.cs" />
+      <option value="$PROJECT_DIR$/Player/WeaponManager.cs" />
       <option value="$PROJECT_DIR$/Global/Projetil.cs" />
+      <option value="$PROJECT_DIR$/Player/WeaponController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tX0XejYu6rjSJ41KXxZuMExfNt" />
@@ -47,13 +48,14 @@
       <option name="presentableId" value="Default" />
       <updated>1622900174419</updated>
       <workItem from="1622900181355" duration="3995000" />
+      <workItem from="1623104461529" duration="3146000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
